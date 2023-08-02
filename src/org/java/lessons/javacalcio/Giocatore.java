@@ -17,4 +17,11 @@ public class Giocatore extends Persona{
 
 
     //METODI
+
+    @Override
+    public String toString() {
+        return super.toString() + " Giocatore{" +
+                "ruoli='" + ruoli + '\'' +
+                "} ";
+    }
 }

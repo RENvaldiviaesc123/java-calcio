@@ -33,4 +33,13 @@ public class Persona {
 
     //METODI
 
+
+    @Override
+    public String toString() {
+        return "Persona{" +
+                "random=" + random +
+                ", nome='" + nome + '\'' +
+                ", eta=" + eta +
+                '}';
+    }
 }

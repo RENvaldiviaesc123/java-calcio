@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7781194a-4045-4eda-80f8-327089b25cf7" name="Changes" comment="Correct some issues">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/java/lessons/javacalcio/Allenatore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/java/lessons/javacalcio/Allenatore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/java/lessons/javacalcio/Giocatore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/java/lessons/javacalcio/Giocatore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/java/lessons/javacalcio/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/java/lessons/javacalcio/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/java/lessons/javacalcio/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/java/lessons/javacalcio/Persona.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +77,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690974034805</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Correct some issues">
+      <option name="closed" value="true" />
+      <created>1690982959055</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690982959055</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
