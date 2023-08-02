@@ -6,14 +6,18 @@ public class Allenatore extends Persona{
     private String strategia;
 
     //COSTRUTTORI
-
-    public Allenatore(String nome, int eta, String strategia) {
-        super(nome, eta);
-        this.strategia = strategia;
-    }
+        public Allenatore(String nome, int eta, String strategia) {
+            super(nome, eta);
+            this.strategia = strategia;
+        }
 
 
     //GETTER e SETTER
+        //Getters
+        public String getStrategia() {
+            return strategia;
+        }
+
 
     //METODI
 }

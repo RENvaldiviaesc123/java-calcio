@@ -8,15 +8,28 @@ public class Persona {
     //ATTRIBUTI
     Random random = new Random();
     private String nome;
-    private int randomEta = random.nextInt(18, 42);
+    private int eta;
     //COSTRUTTORI
 
     public Persona(String nome, int randomEta) {
         this.nome = nome;
-        this.randomEta = randomEta;
+        this.eta = eta;
     }
 
     //GETTER e SETTER
+        //Getters
+        public Random getRandom() {
+            return random;
+        }
+
+        public String getNome() {
+            return nome;
+        }
+
+        public int getEta() {
+            return eta;
+        }
+
 
     //METODI
 

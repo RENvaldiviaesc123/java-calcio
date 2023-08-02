@@ -1,5 +1,5 @@
 package org.java.lessons.javacalcio;
-
+import java.util.Random;
 import java.util.ArrayList;
 
 public class Main {
@@ -11,7 +11,9 @@ public class Main {
     prelevare un ruolo casuale dall’array di possibili ruoli
      */
     public static void main(String[] args) {
-        ArrayList<>
+        Random random = new Random();
+        int randomEta = random.nextInt(18, 42);
+        String[] ruoliGiocatori  = {"Portiere", "Diffensore", "Centrocampista", "Attacante", "Capitano"};
 
     }
 }
