@@ -3,7 +3,7 @@ package org.java.lessons.javacalcio;
 public class Allenatore extends Persona{
     //La strategia può essere diffensiva oppure offensiva
     //ATTRIBUTI
-    String strategia;
+    private String strategia;
 
     //COSTRUTTORI
 

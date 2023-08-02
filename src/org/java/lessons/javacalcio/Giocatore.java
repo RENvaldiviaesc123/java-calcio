@@ -2,13 +2,9 @@ package org.java.lessons.javacalcio;
 
 public class Giocatore extends Persona{
     //ATTRIBUTI
-    String ruolo;
+    private String[] ruoli = {"Portiere", "Diffensore", "Centrocampista", "Attacante", "Capitano"};
     //COSTRUTTORI
 
-    public Giocatore(String nome, int eta, String ruolo) {
-        super(nome, eta);
-        this.ruolo = ruolo;
-    }
 
 
     //GETTER e SETTER
