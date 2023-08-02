@@ -3,10 +3,10 @@ package org.java.lessons.javacalcio;
 public class Allenatore extends Persona{
     //La strategia può essere diffensiva oppure offensiva
     //ATTRIBUTI
-    private String strategia;
+    private boolean strategia;
 
     //COSTRUTTORI
-        public Allenatore(String nome, int eta, String strategia) {
+        public Allenatore(String nome, int eta, boolean strategia) {
             super(nome, eta);
             this.strategia = strategia;
         }
@@ -14,7 +14,7 @@ public class Allenatore extends Persona{
 
     //GETTER e SETTER
         //Getters
-        public String getStrategia() {
+        public boolean getStrategia() {
             return strategia;
         }
 

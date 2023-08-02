@@ -30,7 +30,14 @@ public class Persona {
             return eta;
         }
 
+        public void setEta(int eta) {
+            this.eta = eta;
+        }
 
+        public void setNome(String nome) {
+                this.nome = nome;
+
+        }
     //METODI
 
 
